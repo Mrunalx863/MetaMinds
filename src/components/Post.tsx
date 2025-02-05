@@ -83,11 +83,11 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
                   type === "status" && "flex-col gap-0 !items-start"
                 }`}
               >
-                <h1 className="text-md font-bold">Lama Dev</h1>
+                <h1 className="text-md font-bold">Algorand</h1>
                 <span
                   className={`text-textGray ${type === "status" && "text-sm"}`}
                 >
-                  @lamaWebDev
+                  @ShareMinds
                 </span>
                 {type !== "status" && (
                   <span className="text-textGray">1 day ago</span>

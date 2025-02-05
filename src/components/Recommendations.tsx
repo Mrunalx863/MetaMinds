@@ -12,8 +12,8 @@ const Recommendations = () => {
             <Image path="general/avatar.png" alt="John Doe" w={100} h={100} tr={true}/>
           </div>
           <div className=''>
-            <h1 className="text-md font-bold">John Doe</h1>
-            <span className="text-textGray text-sm">@johnDoe</span>
+            <h1 className="text-md font-bold">Mrunal</h1>
+            <span className="text-textGray text-sm">@Mehar</span>
           </div>
         </div>
         {/* BUTTON */}
@@ -26,8 +26,8 @@ const Recommendations = () => {
             <Image path="general/avatar.png" alt="John Doe" w={100} h={100} tr={true}/>
           </div>
           <div className=''>
-            <h1 className="text-md font-bold">John Doe</h1>
-            <span className="text-textGray text-sm">@johnDoe</span>
+            <h1 className="text-md font-bold">Hemant</h1>
+            <span className="text-textGray text-sm">Jhodha</span>
           </div>
         </div>
         {/* BUTTON */}
@@ -40,8 +40,8 @@ const Recommendations = () => {
             <Image path="general/avatar.png" alt="John Doe" w={100} h={100} tr={true}/>
           </div>
           <div className=''>
-            <h1 className="text-md font-bold">John Doe</h1>
-            <span className="text-textGray text-sm">@johnDoe</span>
+            <h1 className="text-md font-bold">shail</h1>
+            <span className="text-textGray text-sm">@koul</span>
           </div>
         </div>
         {/* BUTTON */}

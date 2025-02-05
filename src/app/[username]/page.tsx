@@ -8,9 +8,9 @@ const UserPage = () => {
       {/* PROFILE TITLE */}
       <div className="flex items-center gap-8 sticky top-0 backdrop-blur-md p-4 z-10 bg-[#00000084]">
         <Link href="/">
-          <Image path="icons/back.svg" alt="back" w={24} h={24} />
+          <Image path="svg/back.svg" alt="back" w={24} h={24} />
         </Link>
-        <h1 className="font-bold text-lg">Lama Dev</h1>
+        <h1 className="font-bold text-lg">ShareMinds</h1>
       </div>
       {/* INFO */}
       <div className="">
@@ -27,13 +27,13 @@ const UserPage = () => {
         </div>
         <div className="flex w-full items-center justify-end gap-2 p-2">
           <div className="w-9 h-9 flex items-center justify-center rounded-full border-[1px] border-gray-500 cursor-pointer">
-            <Image path="icons/more.svg" alt="more" w={20} h={20} />
+            <Image path="svg/more001.svg" alt="more" w={20} h={20} />
           </div>
           <div className="w-9 h-9 flex items-center justify-center rounded-full border-[1px] border-gray-500 cursor-pointer">
-            <Image path="icons/explore.svg" alt="more" w={20} h={20} />
+            <Image path="icons/hyy.svg" alt="more" w={20} h={20} />
           </div>
           <div className="w-9 h-9 flex items-center justify-center rounded-full border-[1px] border-gray-500 cursor-pointer">
-            <Image path="icons/message.svg" alt="more" w={20} h={20} />
+            <Image path="svg/message01.svg" alt="more" w={20} h={20} />
           </div>
           <button className="py-2 px-4 bg-white text-black font-bold rounded-full">
             Follow
@@ -46,7 +46,7 @@ const UserPage = () => {
             <h1 className="text-2xl font-bold">Lama Dev</h1>
             <span className="text-textGray text-sm">@lamaWebDev</span>
           </div>
-          <p>Lama Dev Youtube Channel</p>
+          <p>Share Mind</p>
           {/* JOB & LOCATION & DATE */}
           <div className="flex gap-4 text-textGray text-[15px]">
             <div className="flex items-center gap-2">

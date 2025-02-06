@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "./Image";
 import { useState } from "react";
+import { FormEvent } from "react";
 
 const menuList = [
   { id: 1, name: "Homepage", link: "/", icon: "home01.svg" },
@@ -35,7 +36,7 @@ const LeftBar = () => {
     setIsFormOpen(true);
   };
 
-  const handleWalletConnect = (e) => {
+  const handleWalletConnect = (e:  FormEvent) => {
     e.preventDefault();
     alert(`Wallet Connected: ${walletAddress}`);
     closeModal();
@@ -121,7 +122,7 @@ const LeftBar = () => {
                     placeholder="Enter your Wallet Address"
                     value={walletAddress}
                     onChange={(e) => setWalletAddress(e.target.value)}
-                    className="p-2 border border-gray-300 rounded-lg"
+                    className="p-2 border border-gray-300 rounded-lg text-black"
                     required
                   />
                   <button
